@@ -37,24 +37,12 @@
             <version>${spring.framework.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>io.opentracing</groupId>
-            <artifactId>opentracing-api</artifactId>
-            <version>0.31.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>io.opentracing</groupId>
-            <artifactId>opentracing-util</artifactId>
-            <version>0.31.0</version>
-        </dependency>
 
         <dependency>
             <groupId>com.datadoghq</groupId>
-            <artifactId>dd-trace-ot</artifactId>
-            <version>0.3.3</version>
+            <artifactId>java-dogstatsd-client</artifactId>
+            <version>2.3</version>
         </dependency>
-
 
     </dependencies>
     
